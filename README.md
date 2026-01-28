@@ -19,14 +19,14 @@
 
 ### Active
 
-- [24th Roboracer Autonomous Grand Prix @ ICRA 2026](https://2026.ieee-icra.org/event/the-24th-roboracer-autonomous-grand-prix-competition/) - 1:10 scale autonomous racing using AutoDRIVE Ecosystem. 135+ participants at ICRA 2024, 89+ universities.
 - [AI Grand Prix](https://aigrandprix.com) - Anduril's $500K autonomous drone racing competition. Virtual qualification April-June 2026, finals November 2026 in Columbus, OH.
-- [A2RL](https://a2rl.io) - Abu Dhabi Autonomous Racing League. First competition where AI defeated human world champions (TU Delft, April 2025).
-- [Purdue Autonomous Drone Racing](https://pylon-racing.geddes.rcac.purdue.edu/) - Indoor fixed-wing pylon racing with simulation-to-real format. Competition begins November 2025.
-- [UZH RPG Drone Racing Competition](https://uzh-rpg.github.io/drone-racing-competition/) - State-based and vision-based challenges using Flightmare from the world-leading drone racing research group.
+
 
 ### Historical
 
+- [A2RL](https://a2rl.io) - Abu Dhabi Autonomous Racing League. First competition where AI defeated human world champions (TU Delft, April 2025).
+- [Purdue Autonomous Drone Racing](https://pylon-racing.geddes.rcac.purdue.edu/) - Indoor fixed-wing pylon racing with simulation-to-real format. Competition begins November 2025.
+- [24th Roboracer Autonomous Grand Prix @ ICRA 2026](https://2026.ieee-icra.org/event/the-24th-roboracer-autonomous-grand-prix-competition/) - 1:10 scale autonomous racing using AutoDRIVE Ecosystem. 135+ participants at ICRA 2024, 89+ universities.
 - [AlphaPilot](https://www.herox.com/alphapilot) - Lockheed Martin AI drone racing challenge (2019). $1M prize won by TU Delft MAVLab.
 - [Game of Drones](https://microsoft.github.io/AirSim-NeurIPS2019-Drone-Racing/) - NeurIPS 2019 competition using Microsoft AirSim. Framework still available for benchmarking.
 - [IROS Autonomous Drone Racing](https://www.uzh.ch/cmsssl/ifi/en/ailab/news/iros18-autonomous-drone-race.html) - IROS 2018 competition won by UZH-RPG.
