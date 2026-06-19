@@ -21,7 +21,7 @@
 ### Active
 
 - [AI Grand Prix](https://theaigrandprix.com) - $500K autonomous drone race conceived by Anduril's Palmer Luckey, run with the Drone Champions League on identical Neros Technologies drones (software only, no human pilots). Inaugural 2026 season: virtual qualifiers (May–July), a Southern California physical qualifier (September), and finals in Ohio (November).
-- [A2RL](https://a2rl.io) - Abu Dhabi Autonomous Racing League. Vision-only autonomous racing (single forward-facing RGB camera + IMU; LiDAR/stereo/GPS prohibited). In April 2025 it became the first event where AI beat human champions (won by TU Delft); at the Jan 2026 Drone Championship (UMEX), FPV world champion Minchan Kim beat the autonomous drone in a best-of-nine, while TII Racing set the fastest AI lap (12.032s) and MAVLab won the multi-drone race.
+- [A2RL](https://a2rl.io) - Abu Dhabi's ongoing autonomous racing league (ASPIRE), spanning autonomous cars and a vision-only drone championship (single forward-facing RGB camera + IMU; LiDAR/stereo/GPS prohibited). Its 2025 drone race was the first event where AI beat human champions (won by TU Delft); the most recent edition, the Jan 2026 Drone Championship (UMEX), saw FPV world champion Minchan Kim narrowly beat the autonomous drone while TII Racing set the fastest AI lap (12.032s).
 
 
 ### Historical
@@ -74,7 +74,7 @@
 
 - [MAVSDK](https://github.com/mavlink/MAVSDK) - MAVLink SDK for Python, C++, and other languages.
 - [MAVROS](https://github.com/mavlink/mavros) - ROS interface for MAVLink-based autopilots.
-- [ROS 2](https://docs.ros.org/en/humble/) - Robot Operating System for building drone autonomy stacks.
+- [ROS 2](https://docs.ros.org/) - Robot Operating System for building drone autonomy stacks.
 
 ### Control & Planning
 
@@ -135,9 +135,9 @@
 
 ### Competition Winners
 
+- [AlphaPilot: Autonomous Drone Racing](https://arxiv.org/abs/2005.12813) - UZH-RPG's vision-based full-stack racing system for the 2019 Lockheed Martin AlphaPilot Challenge (Foehn et al.).
 - [Champion-level drone racing using deep reinforcement learning](https://www.nature.com/articles/s41586-023-06419-4) - Nature 2023. UZH's Swift system beating human champions.
 - [Guidance & Control Networks for Time-Optimal Quadcopter Flight](https://arxiv.org/abs/2305.02705) - TU Delft MAVLab's neural-network approximation of time-optimal control (G&CNets) for aggressive quadrotor flight.
-- [AlphaPilot: Autonomous Drone Racing](https://arxiv.org/abs/2005.12813) - UZH-RPG's vision-based full-stack racing system for the 2019 Lockheed Martin AlphaPilot Challenge (Foehn et al.).
 
 ### Sim-to-Real & Learning
 
