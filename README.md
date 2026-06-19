@@ -120,7 +120,7 @@
 
 ### Foundational
 
-- [A Benchmark Comparison of Learned Control Policies for Agile Quadrotor Flight](https://arxiv.org/abs/2210.09485) - Systematic comparison of RL approaches for quadrotor control.
+- [A Benchmark Comparison of Learned Control Policies for Agile Quadrotor Flight](https://arxiv.org/abs/2202.10796) - Systematic comparison of learned control policies for agile quadrotor flight. ICRA 2022.
 - [Beauty and the Beast: Optimal Methods Meet Learning for Drone Racing](https://arxiv.org/abs/1810.06224) - UZH-RPG's hybrid approach combining perception with optimal control.
 - [Deep Drone Racing: From Simulation to Reality with Domain Randomization](https://arxiv.org/abs/1905.09727) - Key paper on sim-to-real transfer for drone racing.
 - [Learning High-Speed Flight in the Wild](https://www.science.org/doi/10.1126/scirobotics.abg5810) - Science Robotics paper on agile flight through complex environments.
@@ -128,25 +128,25 @@
 ### Competition Winners
 
 - [Champion-level drone racing using deep reinforcement learning](https://www.nature.com/articles/s41586-023-06419-4) - Nature 2023. UZH's Swift system beating human champions.
-- [Guidance & Control Networks for Time-Optimal Quadrotor Flight](https://arxiv.org/abs/2305.14324) - TU Delft's winning A2RL approach with direct motor control at 500Hz.
-- [The Winning Solution to the 2019 AlphaPilot Challenge](https://www.research-collection.ethz.ch/handle/20.500.11850/469934) - Technical report from MAVLab's $1M win.
+- [Guidance & Control Networks for Time-Optimal Quadcopter Flight](https://arxiv.org/abs/2305.02705) - TU Delft MAVLab's neural-network approximation of time-optimal control (G&CNets) for aggressive quadrotor flight.
+- [AlphaPilot: Autonomous Drone Racing](https://arxiv.org/abs/2005.12813) - UZH-RPG's vision-based full-stack racing system for the 2019 Lockheed Martin AlphaPilot Challenge (Foehn et al.).
 
 ### Sim-to-Real & Learning
 
 - [Learning Generalizable Policy for Obstacle-Aware Autonomous Drone Racing](https://arxiv.org/abs/2411.04246) - Deep RL with domain randomization achieving 70 km/h in cluttered environments.
 - [Learning to Fly in Seconds](https://arxiv.org/abs/2311.13081) - Sim-to-real transfer after only 18 seconds of training. Asymmetric actor-critic with curriculum learning. RA-L 2024.
 - [Time-Optimal Planning for Long-Range Quadrotor Flights](https://arxiv.org/abs/2407.17944) - Polynomial-based optimal synthesis validated at 8.86 m/s peak velocity.
-- [Unlocking Aerobatic Potential of Quadcopters](https://www.science.org/journal/scirobotics) - Science Robotics. First system achieving professional-pilot-level aerobatics autonomously.
+- [Unlocking Aerobatic Potential of Quadcopters](https://www.science.org/doi/10.1126/scirobotics.adp9905) - Science Robotics (ZJU FAST Lab, 2025). Autonomous generation and execution of professional-level freestyle aerobatics.
 
 ### Perception
 
-- [Fast and Accurate Gate Detection for Autonomous Drone Racing](https://arxiv.org/abs/2012.04512) - U-Net based corner detection achieving 10.5ms inference.
-- [MonoRace: Visual Odometry for Racing Drones](https://ieeexplore.ieee.org/document/9561785) - Monocular VIO optimized for racing conditions.
+- [Continual Learning for Robust Gate Detection under Dynamic Lighting in Autonomous Drone Racing](https://arxiv.org/abs/2405.01054) - Continual-learning gate detector robust to changing illumination for onboard racing perception.
+- [MonoRace: Winning Champion-Level Drone Racing with Robust Monocular AI](https://arxiv.org/abs/2601.15222) - TU Delft MAVLab onboard system using neural gate segmentation and a learned drone model for robust state estimation from a single rolling-shutter camera and IMU; won the 2025 A2RL Autonomous Drone Race.
 
 ### Control
 
-- [MPCC++: Model Predictive Contouring Control for Time-Optimal Racing](https://arxiv.org/abs/2402.03456) - MPC approach with 100% success rate in real-world racing.
-- [NeuroBEM: Hybrid Neural Network/Blade Element Momentum](https://arxiv.org/abs/2302.02988) - 50% improved dynamics prediction for aggressive flight.
+- [MPCC++: Model Predictive Contouring Control for Time-Optimal Flight with Safety Constraints](https://arxiv.org/abs/2403.17551) - UZH-RPG MPC adding track/terminal safety constraints and residual aerodynamics for crash-free flight at 80+ km/h.
+- [NeuroBEM: Hybrid Aerodynamic Quadrotor Model](https://arxiv.org/abs/2106.08015) - Hybrid neural-network/blade-element-momentum model with ~50% lower dynamics-prediction error for aggressive flight. RSS 2021.
 - [TinyMPC: Model-Predictive Control on Resource-Constrained Microcontrollers](https://arxiv.org/abs/2310.16985) - Best Paper in Automation ICRA 2024. Real-time MPC on Crazyflie.
 
 ## Tutorials & Courses
