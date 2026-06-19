@@ -36,21 +36,21 @@
 ### GPU-Parallel (Isaac-Based)
 
 - [Aerial Gym Simulator](https://github.com/ntnu-arl/aerial_gym_simulator) - Isaac Gym with GPU-parallelized geometric controllers supporting 100,000+ parallel drones. IEEE RA-L 2025.
-- [Isaac Gym](https://developer.nvidia.com/isaac-gym) - NVIDIA's GPU-accelerated physics simulation for RL training.
+- [Isaac Gym](https://developer.nvidia.com/isaac-gym) - NVIDIA's GPU-accelerated physics simulation for RL training. Now legacy; superseded by Isaac Lab (built on Isaac Sim).
 - [OmniDrones](https://github.com/btx0424/OmniDrones) - Isaac Sim 4.1.0 with multi-rotor RL environments. IEEE RA-L 2024. No longer actively maintained.
 - [Pegasus Simulator](https://github.com/PegasusSimulator/PegasusSimulator) - Isaac Sim extension with native PX4/ArduPilot and ROS2 support. Photorealistic environments.
 
 ### Traditional Physics Engines
 
 - [Agilicious](https://github.com/uzh-rpg/agilicious) - Complete quadrotor hardware/software stack from UZH-RPG. Demonstrated 5g maneuvers at 70 km/h.
-- [AirSim](https://github.com/microsoft/AirSim) - Microsoft's Unreal Engine-based simulator with drone racing environments.
-- [AirSim Drone Racing Lab](https://github.com/microsoft/AirSim-Drone-Racing-Lab) - Competition framework built on AirSim for the NeurIPS Game of Drones.
+- [AirSim](https://github.com/microsoft/AirSim) - Microsoft's Unreal Engine-based simulator with drone racing environments. Development frozen; succeeded by the commercial Project AirSim.
+- [AirSim Drone Racing Lab](https://github.com/microsoft/AirSim-Drone-Racing-Lab) - Competition framework built on AirSim for the NeurIPS Game of Drones. Archived (read-only) since June 2026.
 - [Cosys-AirSim](https://github.com/Cosys-Lab/Cosys-AirSim) - AirSim fork updated for Unreal Engine 5.5 with GPU-LiDAR and new sensors. No longer actively maintained.
 - [CrazySim](https://github.com/gtfactslab/CrazySim) - First proper software-in-the-loop simulator for Crazyflie with Gazebo Sim/ROS2 integration. ICRA 2024.
 - [Flightmare](https://github.com/uzh-rpg/flightmare) - UZH-RPG flexible simulator with Unity rendering, 200kHz physics, and OpenAI Gym API.
 - [FlightForge](https://arxiv.org/abs/2502.05038) - UE5-based simulator with procedural environment generation for Sprin-D Autonomous Flight Challenge 2024.
 - [gym_multirotor](https://github.com/adipandas/gym_multirotor) - MuJoCo-based quadrotor environments compatible with stable-baselines3.
-- [gym-pybullet-drones](https://github.com/utiasDSL/gym-pybullet-drones) - Gymnasium-compatible RL environments with Crazyflie dynamics.
+- [gym-pybullet-drones](https://github.com/learnsyslab/gym-pybullet-drones) - Gymnasium-compatible RL environments with Crazyflie dynamics.
 - [KestrelFPV](https://github.com/eleurent/KestrelFPV) - Unity3D FPV racing simulator with realistic aerodynamics and multiplayer support.
 - [RotorS](https://github.com/ethz-asl/rotors_simulator) - ETH Zurich MAV simulation framework for Gazebo.
 
@@ -95,26 +95,25 @@
 - [DeepPilot](https://github.com/QuetzalCpp/DeepPilot) - End-to-end CNN racing from camera images to flight commands using temporal mosaic. 25 FPS.
 - [GateNet](https://github.com/open-airlab/GateNet) - Shallow CNN for gate detection at 60 Hz on Jetson TX2 with fish-eye support and AU-DR dataset.
 - [Learning to Fly](https://github.com/arplaboratory/learning-to-fly) - Sim-to-real transfer for direct RPM control after only 18 seconds of training. NYU ARPL.
-- [lsy_drone_racing](https://github.com/utiasDSL/lsy_drone_racing) - Complete educational framework with progressive difficulty and sim-to-real to Crazyflie. University course.
+- [lsy_drone_racing](https://github.com/learnsyslab/lsy_drone_racing) - Complete educational framework with progressive difficulty and sim-to-real to Crazyflie. University course.
 
 ## State Estimation
 
 - [LARVIO](https://github.com/PetWorm/LARVIO) - Lightweight, Accurate and Robust monocular VIO.
 - [msckf_vio](https://github.com/KumarRobotics/msckf_vio) - Robust stereo VIO using Multi-State Constraint Kalman Filter.
-- [OpenVINS](https://github.com/rpng/open_vins) - Winner of IROS 2019 FPV VIO Competition. Handles speeds up to 23.4 m/s with online calibration.
+- [OpenVINS](https://github.com/rpng/open_vins) - Winner of the IROS 2019 FPV VIO Competition on the UZH-FPV racing dataset (ground-truth speeds up to 23.4 m/s). Supports online calibration.
 - [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) - Visual-Inertial SLAM supporting monocular, stereo, and RGB-D cameras.
 - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) - Multi-sensor fusion for robust state estimation.
 
 ## Datasets
 
-- [AirSim Drone Racing Dataset](https://github.com/microsoft/AirSim-NeurIPS2019-Drone-Racing) - Synthetic data from NeurIPS 2019 Game of Drones with multiple environments and sensor modalities.
-- [Blackbird Dataset](https://github.com/mit-fast/Blackbird-Dataset) - MIT aggressive flight dataset with ground truth from motion capture.
+- [AirSim Drone Racing Dataset](https://github.com/microsoft/AirSim-NeurIPS2019-Drone-Racing) - Synthetic data from NeurIPS 2019 Game of Drones with multiple environments and sensor modalities. Archived (read-only) since June 2026.
+- [Blackbird Dataset](https://github.com/mit-aera/Blackbird-Dataset) - MIT aggressive flight dataset with ground truth from motion capture.
 - [EuRoC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) - ETH Zurich visual-inertial datasets for benchmarking.
-- [MILUV](https://arxiv.org/abs/2504.14376) - Multi-UAV Indoor Localization: 217 minutes across 36 experiments with UWB, stereo vision, and motion-capture ground truth.
-- [SimD3](https://arxiv.org/abs/2601.14742) - Synthetic dataset from Cosys-AirSim/UE5 with diverse environments and adverse weather conditions (January 2026).
+- [MILUV](https://arxiv.org/abs/2504.14376) - Multi-UAV indoor localization dataset: 217 minutes across 36 experiments with UWB, stereo vision, and motion-capture ground truth (indoor localization, not high-speed racing).
 - [TII-RATM Dataset](https://github.com/tii-racing/drone-racing-dataset) - Multimodal racing data including autonomous and human-piloted flights (>21 m/s). RA-L 2024.
 - [UZH-FPV Drone Racing Dataset](https://fpv.ifi.uzh.ch/) - High-speed racing data with event cameras, standard cameras, and IMU.
-- [VAPAR](https://github.com/ntnu-arl/VAPAR) - Visual-Aware Planning for autonomous racing dataset.
+- [VAPAR](https://github.com/uzh-rpg/VAPAR) - UZH-RPG dataset of flight trajectories, RGB, and human eye-gaze for visual-attention-aware drone racing (Pfeiffer et al., PLOS ONE 2022).
 
 ## Papers
 
@@ -189,8 +188,8 @@
 ### Cameras
 
 - [iniVation mDAVIS 346](https://inivation.com/buy/) - Event camera with 130% VIO accuracy improvement over standard frames at high speeds.
-- [Intel RealSense D435i](https://www.intelrealsense.com/depth-camera-d435i/) - Depth + IMU for indoor navigation.
-- [Leopard Imaging IMX264](https://www.leopardimaging.com/product/autonomous-camera/maxim-gmsl-cameras/) - Global shutter camera used in AlphaPilot.
+- [Intel RealSense D435i](https://www.realsenseai.com/products/depth-camera-d435i/) - Depth + IMU for indoor navigation. (RealSense is now an independent company at realsenseai.com.)
+- [Leopard Imaging IMX264](https://leopardimaging.com/product-tag/imx264/) - Global shutter camera used in AlphaPilot.
 - [Prophesee Event Cameras](https://www.prophesee.ai/) - Event-based sensing for high-speed motion.
 
 ### Reference Platforms
@@ -198,9 +197,9 @@
 - [A2RL/TII Open Design](https://github.com/tii-racing) - ~966g carbon fiber frame achieving 100+ km/h with 4:1 thrust ratio.
 - [Bitcraze Crazyflie 2.1+](https://www.bitcraze.io/products/crazyflie-2-1/) - Nano quadrotor with AI-deck and Lighthouse positioning. Standard for indoor RL research.
 - [Bitcraze Crazyflie Brushless](https://www.bitcraze.io/) - 41g brushless variant with 7-10 min flight time.
-- [Holybro X500 V2](https://holybro.com/products/x500-v2-kit) - PX4 development platform.
+- [Holybro X500 V2](https://holybro.com/products/px4-development-kit-x500-v2) - PX4 development platform.
 - [Langostino](https://github.com/swarm-subnet/Langostino) - Complete open-source autonomous drone platform with hardware BOM, ROS2 stack, and RL-based autopilot using gym-pybullet-drones. Raspberry Pi companion computer with LiDAR and GPS.
-- [ModalAI Starling](https://www.modalai.com/products/starling) - Ready-to-fly autonomous drone with VOXL compute.
+- [ModalAI Starling 2 Max](https://www.modalai.com/products/starling-2-max) - Ready-to-fly autonomous drone with VOXL compute.
 
 ## Community
 
@@ -228,12 +227,12 @@
 
 - [ETH Zurich Autonomous Systems Lab](https://asl.ethz.ch/) - RotorS, MAV research.
 - [HKUST Aerial Robotics Group](https://uav.hkust.edu.hk/) - Fast-Planner, VINS-Fusion.
-- [MIT FAST Lab](https://groups.csail.mit.edu/rrg/) - Aggressive flight and Blackbird dataset.
+- [MIT Karaman Group](https://karaman.mit.edu/) - Aggressive/agile flight and the Blackbird dataset (Sertac Karaman, MIT LIDS).
 - [NTNU Autonomous Robots Lab](https://www.autonomousrobotslab.com/) - Aerial Gym, VAPAR dataset.
 - [NYU Agile Robotics and Perception Lab](https://wp.nyu.edu/arpl/) - Learning to Fly in Seconds.
 - [TU Delft MAVLab](https://mavlab.tudelft.nl/) - A2RL and AlphaPilot champions, Paparazzi UAV, G&CNets.
 - [UZH Robotics and Perception Group](https://rpg.ifi.uzh.ch/) - Flightmare, Agilicious, Swift. The leading academic lab in drone racing.
-- [UTIAS Dynamic Systems Lab](http://dsl.utias.utoronto.ca/) - gym-pybullet-drones, lsy_drone_racing, Crazyflie research.
+- [UTIAS Dynamic Systems Lab](https://www.dynsyslab.org/) - gym-pybullet-drones and Crazyflie research.
 
 ## AI Research
 
