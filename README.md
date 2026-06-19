@@ -20,16 +20,16 @@
 
 ### Active
 
-- [AI Grand Prix](https://theaigrandprix.com) - Anduril's $500K autonomous drone racing competition in partnership with Drone Champions League and Neros Technologies.
-- [A2RL](https://a2rl.io) - Abu Dhabi Autonomous Racing League. First competition where AI defeated human world champions (TU Delft, April 2025). Season 2 concluded November 2025.
+- [AI Grand Prix](https://theaigrandprix.com) - $500K autonomous drone race conceived by Anduril's Palmer Luckey, run with the Drone Champions League on identical Neros Technologies drones (software only, no human pilots). Inaugural 2026 season: virtual qualifiers (May–July), a Southern California physical qualifier (September), and finals in Ohio (November).
+- [A2RL](https://a2rl.io) - Abu Dhabi Autonomous Racing League. Vision-only autonomous racing (single forward-facing RGB camera + IMU; LiDAR/stereo/GPS prohibited). In April 2025 it became the first event where AI beat human champions (won by TU Delft); at the Jan 2026 Drone Championship (UMEX), FPV world champion Minchan Kim beat the autonomous drone in a best-of-nine, while TII Racing set the fastest AI lap (12.032s) and MAVLab won the multi-drone race.
 
 
 ### Historical
 - [Purdue Autonomous Drone Racing](https://pylon-racing.geddes.rcac.purdue.edu/) - Indoor fixed-wing pylon racing with simulation-to-real format. Competition held December 2025.
-- [24th Roboracer Autonomous Grand Prix @ ICRA 2026](https://2026.ieee-icra.org/event/the-24th-roboracer-autonomous-grand-prix-competition/) - 1:10 scale autonomous racing using AutoDRIVE Ecosystem. 135+ participants at ICRA 2024, 89+ universities.
+- [27th Roboracer Autonomous Grand Prix @ ICRA 2026](https://icra2026-race.roboracer.ai/) - 1:10 scale autonomous racing, held at ICRA 2026 (VIECON, Vienna, June 1–5 2026).
 - [AlphaPilot](https://www.herox.com/alphapilot) - Lockheed Martin AI drone racing challenge (2019). Over $2M in prizes, won by TU Delft MAVLab.
 - [Game of Drones](https://microsoft.github.io/AirSim-NeurIPS2019-Drone-Racing/) - NeurIPS 2019 competition using Microsoft AirSim. Framework still available for benchmarking.
-- [IROS Autonomous Drone Racing](https://www.uzh.ch/cmsssl/ifi/en/ailab/news/iros18-autonomous-drone-race.html) - IROS 2018 competition won by UZH-RPG.
+- [IROS Autonomous Drone Racing](https://www.ifi.uzh.ch/en/rpg/news/RPG-won-the-IROS-2018-Autonomous-Drone-Race.html) - IROS 2018 competition won by UZH-RPG.
 
 ## Simulators
 
